@@ -36,7 +36,7 @@ def login():
         _external=True))
 
 
-@app.route('/login/authorized')
+@app.route('/login/autorizado')
 @facebook.authorized_handler
 def facebook_authorized(resp):
     if resp is None:
