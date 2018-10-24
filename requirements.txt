@@ -1,4 +1,4 @@
 flask
 urlparse
 gunicorn
--e git+https://github.com/mitsuhiko/flask-oauth
+-e git+https://github.com/mitsuhiko/flask-oauth#egg=flask-oauth
